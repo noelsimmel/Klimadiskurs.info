@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+
+{% block searchresult %}
+<h1 id="glossary-header">Suchergebnisse ({{ glossary|length }}):</h1>
+
+<div id="glossary-alphabet">
+    {% for char in ["A", "Ä", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "Ö", "P", "Q", "R", "S", "T", "U", "Ü", "V", "W", "X", "Y", "Z"] %}
+        <span class="alpha">{{ char }}</span>
+    {% endfor %}
+</div>
+
+<div id="glossary-content">
+  <ul class="none">
+    {% for g in glossary %}
+      {% if g["definition"] or g["sources"] or g in tweeted_terms|sort %}
+        <li><a href="/def/{{ g }}">{{ g }}</a></li>
+      {% else %}
+        <li>{{ g }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endblock searchresult %}

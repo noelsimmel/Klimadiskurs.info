@@ -1,0 +1,96 @@
+/* navigation bar */
+
+/* || elements */
+nav {
+    background-color: var(--accent-color);
+    min-width: var(--min-width-boxes);
+    padding: 12px 20px 8px;
+    position: fixed;
+}
+
+/* style links within <nav> elements */
+nav > a, .dropdown > a, .dropdown-content a {
+    font-family: var(--accent-font);
+    font-size: 1.1em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav > a:hover {
+    color: var(--accent-color-vague);
+}
+
+/* "Universität Potsdam 2022" */
+nav > span {
+    color: white;
+    padding-left: 60px;
+    font-size: 0.8em;
+    vertical-align: 0.1em;
+}
+
+/* || drop down menu for download */
+/* base code from https://www.w3schools.com/howto/howto_css_dropdown.asp */
+/* div that wraps the visible nav item */
+.dropdown {
+    display: inline;
+    overflow: hidden;
+}
+
+/* hovering over "Download" */
+.dropdown-header:hover {
+    color: var(--accent-color-vague);
+}
+
+/* show menu items on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* div that wraps the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 33px;
+    left: 198px;
+    background-color: var(--background-color);
+    box-shadow: -5px 3px 0 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* styling for drop down items */
+.dropdown-content a {
+    padding: 10px;
+    margin: 0;
+    color: var(--text-color);
+    font-size: 0.8em;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--accent-color-vague);
+}
+
+
+/* || responsive design */
+/* on phone screens enlarge and use full screen width */
+@media screen and (max-width: 999px) and (hover: none) {
+    nav {
+        width: 79%;
+        padding: 20px 20px 10px;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    /* disable hover effect */
+    .dropdown:hover .dropdown-content {
+        display: none;
+    }
+}
+
+/* hide span text on small screens to save horizontal space */
+@media screen and (max-width: 1499px) {
+    nav > span {
+        display: none;
+    }
+}

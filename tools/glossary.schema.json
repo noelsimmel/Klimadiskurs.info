@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Glossary",
+  "description": "The climate change glossary",
+  "type": "object",
+  "items": {
+    "type": "object",
+    "properties": {
+      "term": {
+        "description": "The entry itself",
+        "type": "string"
+      },
+      "id": {
+        "description": "The unique identifier for an entry, starting from 1. Is continued for each new entry",
+        "type": "integer"
+      },
+      "definition": {
+        "description": "The term's definition",
+        "type": "string"
+      },
+      "sources": {
+        "description": "Sources for the definition",
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "related": {
+        "description": "List of thematically related terms",
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "spellings": {
+        "description": "List of alternate spellings of term",
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "examples": {
+        "description": "Example sentences from the CCG corpus",
+        "type": "array",
+        "items": {
+            "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "association": {
+        "description": "Which climate change discourse group(s) the entry is associated with",
+        "type": "array",
+        "items": {
+            "type": "integer"
+        },
+        "uniqueItems": true
+      }
+    }, "required": [ "id", "term", "association" ]
+  }
+}

@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="left-wrapper">
+  <div class="full-width">
+    <p><strong>Willkommen bei unserem Monitoring-Projekt zum Klimawandeldiskurs!</strong></p>
+    <p>Rechts sehen Sie die <strong>{{ db_size }}</strong> uns bekannten Klimakomposita.</p>
+    <p>Sie können mit den Pfeiltasten navigieren oder auf das Alphabet klicken,
+        um direkt zu einem bestimmten Buchstaben zu springen.</p>
+    <p>Wenn für einen Begriff Glossarinhalte verfügbar sind,
+        sind diese in der Liste verlinkt.</p>
+  </div>
+
+  {% include "searchform.html" %}
+  {% include "submitform.html" %}
+</div>
+
+<div id="right-wrapper">
+  <!-- display default glossary view -->
+  <!-- this is replaced by searchresult.html on the /search/ view -->
+  <!-- technically, glossary.html is a placeholder for searchresult.html -->
+  {% block searchresult %}
+    {% include "glossary.html" %}
+  {% endblock searchresult %}
+</div>
+
+<!-- this is the code for the modal ("popup"), NOT the actual submit form! -->
+{% include "submitmodal.html" %}
+
+<!-- jQuery 3.6.0 -->
+<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- List.js 2.3.1 -->
+<script src="{{ url_for('static', filename='js/list.min.js') }}"></script>
+
+<!-- JS code for search -->
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
+<!-- JS code for pagination -->
+<!-- make certain variables available for JS files. errors on the next lines can be ignored -->
+<script type="text/javascript">
+  const glossaryLength = {{ glossary|length }}; 
+  const itemsPerPage = {{ items_per_page }};
+  const enableSubmissions = {{ enable_submissions }};
+  const tweetedTerms = {{ tweeted_terms|safe }};    // mark as safe so ' charaters aren't escaped
+</script>
+<script src="{{ url_for('static', filename='js/pagination.js') }}"></script>
+
+<!-- JS code for submit modal -->
+<script src="{{ url_for('static', filename='js/submitmodal.js') }}"></script>
+
+<noscript>
+    Bitte lassen Sie JavaScript auf dieser Seite zu, 
+    um die Such- und Vorschlagsfunktione nutzen zu können
+</noscript>
+
+{% endblock %}

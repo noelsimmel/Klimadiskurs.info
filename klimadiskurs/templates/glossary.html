@@ -1,0 +1,41 @@
+<!-- glossary -->
+<h1 id="glossary-header">Die neuesten Einträge im Klimaglossar</h1>
+
+<div id="glossary-alphabet">
+    {% for char in ["A", "Ä", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "Ö", "P", "Q", "R", "S", "T", "U", "Ü", "V", "W", "X", "Y", "Z"] %}
+        <span class="alpha">{{ char }}</span>
+    {% endfor %}
+</div>
+
+<div id="glossary-content">
+  <!-- class must be "list" for List.js to work -->
+  <ul class="list">
+    {% for g in glossary %}
+      {% if g["definition"] or g["sources"] or g in tweeted_terms %}
+        <li><a href="/def/{{ g }}">{{ g }}</a></li>
+      {% else %}
+        <li>{{ g }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <!-- on phone screens, don't use List.js/pagination -->
+  <!-- just show the last 30 entries. on bigger screens this is hidden -->
+  <ul class="glossary-one-list">
+    {% for g in glossary[:30] %}
+      {% if g["definition"] or g["sources"] or g in tweeted_terms %}
+        <li><a href="/def/{{ g }}">{{ g }}</a></li>
+      {% else %}
+        <li>{{ g }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <!-- include code for pagination if list is longer than items_per_page -->
+  {% if glossary|length > items_per_page %}
+    <div class="glossary-pagination">
+        <button id="btn-prev">&#8592;</button><br>
+        <button id="btn-next">&#8594;</button><br>
+    </div>
+  {% endif %}
+</div>

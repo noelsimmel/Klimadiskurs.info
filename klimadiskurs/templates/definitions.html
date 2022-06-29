@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 id="definition-term">{{ term }}</h1>
+<!-- include link to DWDS dictionary entry if available -->
+{% if dwds %}
+    <p>
+        <a href="{{ dwds }}" target="_blank" rel="noopener noreferrer" 
+        title="Wörterbucheintrag ansehen (neues Fenster)">
+            <img src="/static/img/dwds.png" alt="DWDS logo" class="logo">
+        </a>
+    </p>
+{% endif %}
+
+
+<!-- using conditionals instead of Jinja default filter for HTML support -->
+{% if entry["definition"] %}
+    <h2>Definition</h2>
+    <p class="width-60">
+        <!-- link to other entries if they have a definition -->
+        {% for word in entry["definition"].split() %}
+            {% if word.lower().startswith("klima") and word in defined and word != term %}
+                <a href="/def/{{ word }}">{{ word }}</a>
+            <!-- words in quotes "" -->
+            {% elif word.lower().startswith("\"klima") 
+                    and word[1:-1] in defined and word[1:-1] != term %}
+                <a href="/def/{{ word[1:-1] }}">{{ word }}</a>
+            {% else %}
+                {{ word }}
+            {% endif %}
+        {% endfor %}
+    </p>
+{% endif %}
+
+{% if entry["related"] %}
+    <p>
+        Siehe auch:
+        {% for word in entry["related"] %}
+            {% if word in defined %}
+                <a href="/def/{{ word }}">{{ word }}</a> 
+            {% else %}
+                {{ word }} 
+            {% endif %}
+        {% endfor %}
+    </p>
+{% endif %}
+
+<!-- commented out because it might be misleading,
+     e.g. Klimalüge is also used by pro (as a quote) -->
+<!-- <p>
+    Dieser Begriff wird von folgenden Gruppen verwendet:
+    <ul>
+        {% for id in entry["association"] %}
+            <li>{{ ["Menschen, die den menschengemachten Klimawandel nicht anerkennen",
+                    "Menschen, die den menschengemachten Klimawandel anerkennen"][id] }}</li>
+        {% endfor %}
+    </ul>
+</p> -->
+
+{% if entry["sources"] %}
+    <h3>Quellen zur Definition</h3>
+    <p>
+        {% for source in entry["sources"] %}
+            <a href={{ source }}>{{ source }}</a><br>
+        {% endfor %}
+    </p>
+    <!-- alternative: show numbers instead of links -->
+    <!-- <p>
+    {% for idx in range(entry["sources"]|length) %}
+        <a href="{{ entry['sources'][idx] }}">{{ idx+1 }}</a>
+    {% endfor %}
+    </p> -->
+{% endif %}
+
+
+{% if entry["examples"] %}
+    <h2>Beispielsätze</h2>
+    <p>Hier sehen Sie Beispielsätze aus unserer Datenbank. Alle Texte sind reale Blogeinträge oder
+        Websitetexte.</p>
+    {% for ex in entry["examples"] %}
+        <div class="example">
+            <span>
+                {% for word in ex.split() %}
+                    {% if term|lower in word|lower or "klima-"+term[5:] in word|lower %}
+                        <span class="example-keyword">{{ word }}</span>
+                    {% else %}
+                        {{ word }}
+                    {% endif %}
+                {% endfor %}
+            </span>
+        </div>
+    {% endfor %}
+{% endif %}
+
+
+{% if tweets %}
+    <h2>Tweets zum Thema</h2>
+    <p>Klimadiskurs.info verfolgt kontinuierlich den aktuellen Diskurs auf Twitter.</p>
+    <p>Hier sehen Sie automatisch die neuesten deutschsprachigen Tweets, die das Wort "{{ term }}" beinhalten.
+        Aus Gründen der Lesbarkeit wurden Links entfernt.
+        Mit einem Klick auf den Usernamen gelangen Sie direkt zum jeweiligen Tweet.</p>
+    
+    {% for tweet in tweets %}
+        <div class="example">
+            <span>{{ tweet.date }}</span>
+            <span class="example example-source">
+                <a href="http://twitter.com/{{ tweet.handle }}/status/{{ tweet.id }}" target="_blank" 
+                   rel="noopener noreferrer" title="Auf Twitter ansehen (neues Fenster)">
+                    @{{ tweet.handle }}
+                </a>
+            </span>
+            <!-- highlight the term within each tweet -->
+            <span>
+                {% for word in tweet.text.split() %}
+                    {% if term|lower in word|lower or "klima-"+term[5:] in word|lower %}
+                        <span class="example-keyword">{{ word }}</span>
+                    {% else %}
+                        {{ word }}
+                    {% endif %}
+                {% endfor %}
+            </span>
+        </div>
+    {% endfor %}
+
+    <p>
+        <a href="https://twitter.com/search?q={{ term }}" target="_blank" 
+           rel="noopener noreferrer" title="Link zur vollständigen Twitter-Suche (neues Fenster)">
+        Link zur vollständigen Twitter-Suche zum Thema
+        </a>
+    </p>
+{% endif %}
+
+{% endblock %}

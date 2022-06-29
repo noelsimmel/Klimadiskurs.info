@@ -1,0 +1,55 @@
+<!-- submit modal -->
+<div id="submit-modal" class="modal">
+    <div class="modal-content">
+        <!-- submit form -->
+        <form method="POST" action="">
+            <!-- CSRF tag -->
+            {{ form.hidden_tag() }}
+            <fieldset>
+                <legend>Ein Wort vorschlagen:</legend>
+                
+                <div>
+                    {{ form.term.label() }}<br>
+                    {{ form.term() }}
+                </div>
+
+                <div class="noshow">
+                    <label for="url">Dieses Feld bitte leer lassen</label>
+                    {{ form.url(autocomplete="off", type="url", id="url", placeholder="Your website here") }}
+                </div>
+                
+                <div>
+                    {{ form.definition.label() }}
+                    {{ form.definition() }}
+                </div>
+                
+                <div>
+                    {{ form.association.label() }}
+                    <div class="form-checkbox">
+                        {{ form.ass_pro() }}
+                        {{ form.ass_pro.label() }}<br>
+                        {{ form.ass_con() }}
+                        {{ form.ass_con.label() }}
+                    </div>
+                </div>
+                
+                <div>
+                    {{ form.sources.label() }}
+                    {{ form.sources() }}
+                </div>
+                
+                <div>
+                    {{ form.examples.label() }}
+                    {{ form.examples() }}
+                </div>
+                
+                {{ form.submit(class="button") }}
+                {% if form.term.errors %}
+                    {% for error in form.term.errors %}
+                        <span class="form-error" id="form-error">{{ error }}</span>
+                    {% endfor %}
+                {% endif %}
+            </fieldset>
+        </form>
+    </div>
+</div>

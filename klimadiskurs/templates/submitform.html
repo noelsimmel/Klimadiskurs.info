@@ -1,0 +1,23 @@
+{% if enable_submissions %}
+  <div class="form-no-modal">
+    <form method="GET" action="">
+      <fieldset>
+        <legend>Ein Wort vorschlagen:</legend>
+        <div class="full-width">
+            <p id="submitform-text">Helfen Sie mit, unsere Datenbank zu erweitern, indem Sie fehlende
+                Begriffe vorschlagen oder Definitionen für bekannte Begriffe verfassen.</p>
+            <button id="btn-modal" type="button">Vorschlagen</button>
+        
+        <!-- https://www.youtube.com/watch?v=UIJKdCIEXUQ -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <p class="form-{{ category }}">{{ message }}</span>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+       </div>
+      </fieldset>
+    </form>
+  </div>
+{% endif %}

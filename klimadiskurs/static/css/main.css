@@ -1,0 +1,214 @@
+/* || fonts from http://collletttivo.it/ */
+@font-face {
+    font-family: "Mattone";
+    src: url("../fonts/Mattone/Mattone-150.woff2") format("woff2"),
+    url("../fonts/Mattone/Mattone-150.woff") format("woff");
+}
+
+/* for arrows on pagination buttons */
+@font-face {
+    font-family: "Messapia";
+    src: url("../fonts/Messapia/Messapia-Bold.woff2") format("woff2"),
+    url("../fonts/Messapia/Messapia-Bold.woff") format("woff");
+}
+
+
+/* || variables */
+:root {
+    --background-color: #eff5f7;
+    --text-color: #333333;
+    --accent-color: #0264f7;
+    --accent-color-vague: #d9e7f3;
+    --accent-font: "Mattone";
+    --min-width-boxes: 35%;
+}
+
+
+/* || default element styles */
+html {
+    /* prevent scrollbar pushing content to the left */
+    /* https://stackoverflow.com/a/45524215 */
+    width: 100%;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    margin: 2rem 5rem;
+    font-family: "Arial";
+    hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--accent-font);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-top: 2em;
+}
+
+h1 {
+    margin-top: 2em;
+}
+
+p {
+    width: 70%;
+    font-size: 12pt;
+}
+
+.full-width p {
+    width: 100%;
+}
+
+a {
+    background: none;
+    color: var(--accent-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul {
+    width: fit-content;
+    list-style-type: "🌍";
+}
+
+li {
+    margin: 3px 10px;
+    padding: 2px 10px 2px 3px;
+    font-size: 10pt;
+}
+
+/* .button class allows making links look like buttons */
+button, .button {
+    background-color: var(--accent-color);
+    color: white;
+    width: auto;
+    margin: 0 5px 5px;
+    padding: 7px 14px;
+    border: 2px hidden white;
+    border-radius: 15px;
+    font-style: italic;
+    font-size: 11pt;
+    text-align: center;
+}
+
+button:hover, .button:hover {
+    background-color: var(--accent-color-vague);
+    color: var(--text-color);
+    padding: 5px 12px;
+    border: 2px solid var(--accent-color);
+    cursor: pointer;
+}
+
+/* don't show button text when button is disabled */
+button:disabled {
+    color: var(--accent-color) !important; 
+}
+
+button:disabled:hover, .button:disabled:hover {
+    background-color: var(--accent-color);
+    cursor: default;
+}
+
+#btn-random {
+    font-weight: normal;
+    float: right;
+    margin-top: 2px;
+}
+
+/* logos should be aligned with inline text */
+img.logo {
+    height: 1em;  /* same height as text */
+    max-width: 100%;
+    vertical-align: text-top;
+}
+
+
+/* || other functionality */
+/* tooltip (text on hover) */
+/* https://www.w3schools.com/css/css_tooltip.asp */
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 110px;
+    background-color: #000; /* fallback */
+    background-color: rgba(0,0,0,0.4);
+    color: #eee;
+    text-align: center;
+    font-size: 9pt;
+    margin-top: 12px; /* leave enough space for tooltip to close */
+    margin-left: -30px;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* arrow on top of box */
+    left: 60%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0,0,0,0.4) transparent;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+
+/* || content */
+/* page content is divided into two columns */
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* LEFT: nav bar, text and search + submit forms */
+#left-wrapper {
+    float: left;
+    min-width: var(--min-width-boxes);
+    max-width: 42%;
+    margin-top: 3em;
+    margin-right: 7%;
+}
+
+/* RIGHT: glossary list or search result */
+#right-wrapper {
+    width: 49%;
+    overflow: hidden;
+}
+
+
+/* || responsive design */
+/* on phone screens don't use wrappers and use full screen width */
+@media screen and (min-width: 200px) and (max-width: 999px) {
+    body {
+        margin: 3rem 5rem;
+    }
+    /* more spacing between nav bar and text to account for higher nav bar */
+    h1, h2 {
+        margin-top: 4em;
+    }
+    p {
+        width: 100%;
+        margin-top: 1.5em;
+        font-size: 16pt;
+    }
+    li {
+        font-size: 12pt;
+        padding: 5px;
+    }
+    #left-wrapper {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    #left-wrapper > .full-width {
+        margin: 4em 0;
+    }
+    #right-wrapper {
+        width: 100%;
+    }
+}

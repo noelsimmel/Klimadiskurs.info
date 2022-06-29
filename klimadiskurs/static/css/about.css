@@ -1,0 +1,21 @@
+/* styling for /about view */
+
+/* ordered lists for top glossary types */
+ol.list {
+    margin: 0 -30px;
+    display: grid;
+    grid-template-columns: repeat(3, 190px);
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column;
+}
+
+/* tooltip for information on hover (e.g. redirects) */
+ol .tooltip .tooltip-text {
+    width: fit-content;
+    padding: 0 5px;
+    margin: 12px 0 0 0;
+}
+
+ol .tooltip .tooltip-text:after {
+    content: none;
+}

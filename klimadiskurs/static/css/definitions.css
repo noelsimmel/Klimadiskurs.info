@@ -1,0 +1,35 @@
+/* styling for /def/ view */
+
+/* || elements */
+h1#definition-term {
+    font-style: italic;
+}
+
+/* || tweets and example sentences */
+.example {
+    background-color: var(--accent-color-vague);
+    width: fit-content;
+    margin: 10px 0px;
+    padding: 2px;
+    font-size: 10pt;
+    color: #111;
+}
+
+/* twitter user handle or example source */
+.example-source {
+    font-weight: 600;
+    font-size: 11pt;
+    margin: 4px;
+}
+
+/* darker text color for links to ensure accessibility despite background color */
+.example-source > a {
+    color: #045bdd;
+}
+
+/* highlight keyword within a tweet or example sentence */
+.example-keyword {
+    color: #222333;
+    font-weight: bold;
+    padding: 0;
+}

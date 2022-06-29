@@ -1,0 +1,138 @@
+/* styling for glossary content */
+
+/* || heading */
+h1#glossary-header {
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: 615px;
+    text-align: center;
+}
+
+/* || alphabet nav bar */
+#glossary-alphabet {
+    margin: -5px 20px 25px;
+    width: auto;
+    min-width: 315px;
+}
+
+#glossary-alphabet > span {
+    padding: 0 2px;
+    font-weight: 600;
+    font-size: 14pt;
+    color: #0ca704;
+    background-color: #bdf0afbd;
+}
+
+#glossary-alphabet > span:hover {
+    cursor: pointer;
+    background-color: var(--background-color);
+}
+
+/* || pagination */
+.glossary-pagination {
+    position: absolute;
+    width: fit-content;
+    top: 190px;
+    margin-left: 670px;
+}
+
+.glossary-pagination button, .glossary-pagination a {
+    font-family: "Messapia";
+    font-style: normal;
+    display: block; 
+    margin: -5px auto;
+}
+
+/* "show on one page" button uses Times font */
+/* in Messapia font the 1 looks like an upwards arrow, which users found confusing */
+#btn-one {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    padding: 4px 10px;
+}
+
+#btn-one:hover {
+    padding: 2px 8px;
+}
+
+
+/* || responsive design */
+ul.glossary-one-list {
+    display: none;
+}
+
+/* small screens (phones): just a list at the bottom of the page, no buttons */
+/* replace ul class "list" with "glossary-one-list" */
+@media screen and (min-width: 200px) and (max-width: 999px) {
+    h1#glossary-header {
+        margin-left: 0;
+    }
+    ul.list {
+        display: none;
+    }
+    ul.glossary-one-list {
+        display: block;
+        width: 100%;
+        margin: 20px 0 0 30px;
+    }
+    li {
+        margin: 0;
+    }
+    #glossary-alphabet {
+        display: none;
+    }
+    .glossary-pagination {
+        display: none;
+    }
+}
+
+/* medium screens (about 13"): 2 column list with 15x2 cells */
+/* https://stackoverflow.com/a/58756177 */
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    ul.list {
+        display: grid;
+        grid-template-columns: repeat(2, 205px);
+        grid-template-rows: repeat(15, auto);
+        grid-auto-flow: column;
+        margin-left: 4em;
+    }
+}
+
+/* make buttons more accessible on medium sized screens */
+@media (max-width: 1499px) {
+    /* make sure everything is centered and looks nice */
+    h1#glossary-header {
+        width: auto;
+        margin-left: 50px;
+    }
+    #glossary-alphabet {
+        width: 60%;
+        margin: 0 25%;
+    }
+    #glossary-alphabet > span {
+        font-size: 14pt;
+    }
+    /* make pagination buttons 120% size */
+    .glossary-pagination {
+        position: absolute;
+        top: 58%;
+        right: 5%;
+        float: right;
+    }
+    .glossary-pagination button, .glossary-pagination a {
+        transform:scale(1.2);
+        transform-origin: 0 0;
+    }
+}
+
+/* big screens (from 15"): 3 column (10x3) list */
+/* this is the originally intended design */
+@media screen and (min-width: 1500px) {
+    ul.list {
+        display: grid;
+        grid-template-columns: repeat(3, 205px);
+        grid-template-rows: repeat(10, auto);
+        grid-auto-flow: column;
+    }
+}

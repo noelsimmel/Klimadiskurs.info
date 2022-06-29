@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Über das Glossar</h1>
+
+<p>
+    Die Erderwärmung wird nicht nur in Wissenschaft seit langem erforscht 
+    und in der Politik heftig diskutiert,
+    auch die Zivilgesellschaft nimmt Anteil an dem Thema. 
+    Beispielsweise ruft sie zum 
+    <a href="/def/Klimaaufstand" rel="noopener noreferrer">Klimaaufstand</a> auf
+    und bezeichnet Menschen mit anderer Meinung wahlweise als 
+    <a href="/def/Klimaleugner" rel="noopener noreferrer">Klimaleugner</a> 
+    oder als <a href="/def/Klimaspinner" rel="noopener noreferrer">Klimaspinner</a>. 
+    Diese Wortneuschöpfungen werden in sozialen Medien 
+    und auf speziellen Blogs häufig benutzt, 
+    wurden bisher aber kaum dokumentiert.
+    Dieses Glossar soll politisch aufgeladene Komposita mit dem Erstglied <i>Klima</i> 
+    sammeln und öffentlich zugänglich machen.
+    So soll der Klimawandeldiskurs anhand zweier gegensätzlicher Pole nachvollziehbar werden: 
+    Auf der einen Seite Menschen, die den Klimawandel als größtes Problem unserer Zeit sehen, 
+    auf der anderen Seite Menschen, die die Erdwärmung oder ihren menschlichen Anteil leugnen.
+</p>
+
+<p>
+    Die Web-App <i>Klimadiskurs.info</i> wurde von Noël Simmel 
+    im Rahmen einer Bachelorarbeit im Fach Computerlinguistik
+    unter Betreuung von Prof. Dr. Manfred Stede und Prof. Dr. Birgit Schneider 
+    an der Universität Potsdam entwickelt.
+    Das zugrundeliegende Climate Change Glossary wurde von Anna-Janina Goecke erstellt
+    und von Elisa Lübbers für die Web-App bearbeitet.
+</p>
+
+<p>
+    <a href="https://github.com/noelsimmel/Klimadiskurs.info" target="_blank" 
+       rel="noopener noreferrer" title="Klimadiskurs.info auf GitHub (neues Fenster)">
+        <img src="/static/img/github.png" alt="GitHub logo" class="logo">
+        Klimadiskurs.info auf GitHub
+    </a><br>
+    <a href="https://github.com/ajgoecke/climate_change_glossary" target="_blank" 
+       rel="noopener noreferrer" title="Climate Change Glossary auf GitHub (neues Fenster)"">
+        <img src="/static/img/github.png" alt="GitHub logo" class="logo">
+        Climate Change Glossary auf GitHub
+    </a>
+</p>
+
+<h2>Statistiken</h2>
+
+<p>Insgesamt sind {{ stats.no_entries }} Begriffe mit Beispielsätzen in unserer Datenbank.</p>
+<p>Davon haben {{ stats.no_definitions }} Begriffe eine Definition. 
+    {{ stats.no_tweeted }} Begriffe haben wir auf Twitter gefunden.</p>
+<p>{{ stats.pct_pro }}&#37; der Begriffe werden von Menschen verwendet, die den menschengemachten 
+    Klimawandel anerkennen. {{ stats.pct_contra }}&#37; von Menschen, die ihn nicht anerkennen.
+    {{ stats.pct_both }}&#37; werden von beiden Gruppen verwendet.</p>
+
+<p>Diese Komposita kommen in den von uns gesammelten Texten am häufigsten vor:</p>
+<ol class="list">
+    {% for term in ['Klimaleugner', 'Klimaskeptiker', 'Klimahysterie', 'Klimarettung', 
+                    'Klimagerechtigkeit', 'Klimaretter', 'Klimakirche', 'Klimahysteriker', 
+                    'Klimawahn', 'Klimaalarm', 'Klimareligion', 'Klimaschwindel'] %}
+        {% if term is string %}
+            <li><a href="/def/{{ term }}">{{ term }}</a></li>
+        {% else %}
+            <li>
+                <div class="tooltip">
+                    <span class="tooltip-text">&rarr; {{ term[1] }}</span>
+                    <a href="/def/{{ term[1] }}">{{ term[0] }}</a>
+                </div>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ol>
+
+<h2>Was sind eigentlich Komposita?</h2>
+<p>
+    Bei der Komposition (Zusammensetzung) werden zwei oder mehr bekannte Wörter 
+    zu einem neuen Wort zusammengesetzt. 
+    Aus <i>Klima</i> und <i>Wandel</i> ergibt sich <i>Klimawandel</i>. 
+    Die deutsche Sprache hat einen Hang zur Komposition, 
+    jedes Kind kennt den <i>Donaudampfschiffahrtskapitän</i>.
+    Komposita mit einem Substantiv als letztem Bestandteil 
+    sind sogar der verbreitetste Worttyp des Deutschen.
+    Meist haben wir zu neuen Begriffen 
+    wie <a href="/def/Klimazerstörung" rel="noopener noreferrer">Klimazerstörung</a> 
+    sofort ein Bild vor Augen. 
+    Sehr abstrakte Zusammensetzungen 
+    wie <a href="/def/Klimawahn" rel="noopener noreferrer">Klimawahn</a> machen uns neugierig, 
+    absurde Kombinationen wie <a href="/def/Klimakäse" rel="noopener noreferrer">Klimakäse</a> erheitern uns. 
+    Diese einzelnen Wörter können also enorm viel Inhalt transportieren. 
+    Komposita wurden als Grundlage für diese App ausgewählt, 
+    weil sie leicht automatisiert zu finden sind 
+    und so als Annäherung an die tatsächliche Breite des Wortschatzes dienen.
+</p>
+
+<h2>Impressum</h2>
+<address>
+    Prof. Dr. Manfred Stede<br>
+    Universität Potsdam – Department Linguistik<br>
+    Karl-Liebknecht-Straße 24–25<br>
+    Komplex II, Haus 14<br>
+    14476 Potsdam<br>
+    <!-- email adress is encoded to avoid scraping by spammers -->
+    <!-- idea from Felix Dombek/connective-lex.info -->
+    <a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x73;&#x74;&#x65;&#x64;&#x65;&#x40;&#x75;&#x6E;&#x69;&#x2D;&#x70;&#x6F;&#x74;&#x73;&#x64;&#x61;&#x6D;&#x2E;&#x64;&#x65;&#x3F;&#x73;&#x75;&#x62;&#x6A;&#x65;&#x63;&#x74;&#x3D;&#x43;&#x6F;&#x6E;&#x6E;&#x65;&#x63;&#x74;&#x69;&#x76;&#x65;&#x2D;&#x4C;&#x65;&#x78;&#x2E;&#x69;&#x6E;&#x66;&#x6F;">
+        &#x73;&#x74;&#x65;&#x64;&#x65;&#x40;&#x75;&#x6E;&#x69;&#x2D;&#x70;&#x6F;&#x74;&#x73;&#x64;&#x61;&#x6D;&#x2E;&#x64;&#x65;
+    </a>
+</address>
+
+<p>Open-Source-Schriftarten <i>Mattone</i> und <i>Messapia</i> von 
+    <a href="http://collletttivo.it" target="_blank" rel="noopener noreferrer" 
+    title="Collletttivo (neues Fenster)">
+        Collletttivo</a>.
+</p>
+
+<p style="font-size:10pt;">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">Creative Commons Namensnennung</a> – Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz.
+</p>
+
+{% endblock %}

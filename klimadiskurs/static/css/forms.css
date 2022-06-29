@@ -1,0 +1,107 @@
+/* forms */
+
+/* || elements */
+fieldset {
+    background-color: var(--accent-color-vague);
+    min-width: var(--min-width-boxes);
+    font-size: 11pt;
+}
+
+legend {
+    font-family: var(--accent-font);
+    font-size: 12pt;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+label, span {
+    padding: 5px;
+}
+
+/* styling for all input types except checkbox and submit button */
+input:not([type='checkbox']):not([type='submit']), textarea {
+    background-color: var(--background-color);
+    border: 1px solid #666;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 40%; /* only affects input, textarea is overridden below */
+    font-family: inherit;
+}
+
+/* make textarea fields wider than normal input fields */
+textarea {
+    width: 95%;
+    color: #565;
+    resize: vertical; /* allow only vertical resizing */
+}
+
+textarea:focus {
+    color: var(--text-color);
+}
+
+/* a group of checkboxes is wrapped in this div */
+div.form-checkbox {
+    padding: 5px 10px;
+    margin: 0px 3px 10px;
+}
+
+/* hide form field from human users */
+.noshow {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+
+/* || wrappers */
+/* space out forms that are not modal content */
+.form-no-modal {
+    margin-top: 20px;
+}
+
+
+/* || messages */
+/* text above "Vorschlagen" button on landing page */
+#submitform-text {
+    margin: -3px 5px 10px;
+    font-size: 12pt;
+}
+
+/* error messages */
+.form-error {
+    font-size: 10pt;
+    color: red;
+}
+
+/* success message after submit */
+.form-success {
+    margin: 10px 0 5px 5px;
+    color: var(--accent-color);
+    text-align: right;
+    font-style: italic;
+}
+
+
+/* || responsive design */
+/* phone screens: enlarge forms */
+@media screen and (max-width: 999px) and (hover: none) {
+    fieldset {
+        transform: scale(2);
+        transform-origin: 0 0;
+        width: 25vh;
+        margin-bottom: 8em;
+    }
+    p {
+        font-size: 14pt;
+    }
+    textarea {
+        width: 90%;
+    }
+    label {
+        font-size: 82%;
+    }
+}
