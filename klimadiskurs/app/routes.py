@@ -177,13 +177,3 @@ def download_submissions():
     with open("klimadiskurs/static/data/submissions.tsv", mode="w", encoding="utf-8") as f:
         f.write(submissions)
     return send_from_directory("static/data", "submissions.tsv")
-
-@glossary.route("/maintenance")
-def maintenance():
-    """
-    Maintenance page for klimaglossar-dev.herokuapp.com
-
-    Renders: maintenance.html
-    """
-    
-    return render_template("maintenance.html")
