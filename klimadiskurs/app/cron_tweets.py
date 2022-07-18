@@ -14,9 +14,9 @@ from klimadiskurs.app.utils_twitter import connect_to_twitter
 # script should run only once a week
 # workaround since Heroku Scheduler can only schedule daily tasks
 # 0 = Monday, 6 = Sunday
-# if datetime.today().weekday() != 6:
-#     print("Today is not Sunday. Trying again tomorrow.")
-#     exit()
+if datetime.today().weekday() != 6:
+    print("Today is not Sunday. Trying again tomorrow.")
+    exit()
 
 def get_file(filename):
     """Gets a file from GitHub and decodes it.
