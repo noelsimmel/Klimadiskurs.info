@@ -44,6 +44,7 @@ def write_to_file(term):
 
     try:
         repo.update_file(tweets_file.path, "new term", content, tweets_file.sha)
+        sleep(9)   # avoid GitHub API error 409 (occurs when too many requests)
     except Exception as e:
         print("GitHub API Error:", e)
 
