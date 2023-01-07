@@ -1,5 +1,6 @@
 from flask import current_app, flash, json, redirect, render_template, url_for
 from github import Github
+import os
 import random
 import re
 import requests
@@ -13,7 +14,7 @@ try:
 except github.GithubException.BadCredentialsException:
     current_app.logger.error("Bad GitHub credentials. Maybe the personal access token has expired.")
 
-def home_route(template, entries, tweeted):
+def home_route(template, glossary, tweeted=[], include_html=[]):
     """Route to the home page.
     Handles new term submissions and random button.
     Separate function because this logic is used by / and /search routes. 
@@ -21,8 +22,10 @@ def home_route(template, entries, tweeted):
 
     Args:
         template (str): HTML template to render.
-        entries (dict): Glossary (for home) or subset (for search results) to display.
-        tweeted (list(str)): List of tweeted terms. 
+        glossary (dict): Glossary/entries to display.
+        tweeted (list(str), optional): List of tweeted terms. Defaults to [].
+        include_html (list(str), optional): List of other templates to include.
+        Defaults to [].
 
     Renders:
         template
@@ -43,9 +46,21 @@ def home_route(template, entries, tweeted):
     except IndexError:
         random_entry = "Klimaleugner"
 
-    return render_template(template, glossary=entries, tweeted_terms=tweeted, 
-                           random_entry=random_entry, form=form, db_size=len(db),
-                           enable_submissions=ENABLE_SUBMISSIONS, items_per_page=ITEMS_PER_PAGE)
+    return render_template(template, glossary=glossary, tweeted_terms=tweeted,
+                           include_html=include_html, random_entry=random_entry, 
+                           form=form, db_size=len(db), enable_submissions=ENABLE_SUBMISSIONS, 
+                           items_per_page=ITEMS_PER_PAGE)
+
+def get_files_in_directory(path, extension=""):
+    """Returns a list of all files in a directory (with a given extension).
+
+    Args:
+        path (str): Path to the directory.
+        extension (str, optional): Extension to select, including the dot.
+        Defaults to "", i.e. all files.
+    """
+
+    return [f for f in os.listdir(path) if f.endswith(extension)]
 
 def query_db(query):
     """Helper function. Queries the database by key.

@@ -4,9 +4,10 @@
 from flask import current_app, Blueprint, request, send_from_directory
 from flask.templating import render_template
 from collections import namedtuple
-from klimadiskurs import db
+from klimadiskurs import db, platforms_db
 from klimadiskurs.config import ENABLE_SUBMISSIONS
-from klimadiskurs.app.utils import home_route, query_db, get_github_file_decoded, get_dwds_link
+from klimadiskurs.app.utils import home_route, query_db, \
+    get_files_in_directory, get_github_file_decoded, get_dwds_link
 from klimadiskurs.app.utils_twitter import connect_to_twitter, query_tweets
 
 # the following lines are executed only on server (re)start:
@@ -177,3 +178,14 @@ def download_submissions():
     with open("klimadiskurs/static/data/submissions.tsv", mode="w", encoding="utf-8") as f:
         f.write(submissions)
     return send_from_directory("static/data", "submissions.tsv")
+
+@glossary.route("/wahlprogramme")
+def wahlprogramme():
+    """
+    Route for party platforms research by Juliane Hanel (/wahlprogramme).
+    """
+
+    glossary = sorted(platforms_db)
+    graphs = get_files_in_directory("klimadiskurs/templates/platforms/graphs", ".html")
+
+    return home_route("platforms/platforms-home.html", glossary, include_html=graphs)

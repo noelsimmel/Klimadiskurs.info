@@ -10,6 +10,10 @@ from klimadiskurs.config import Config
 with open("klimadiskurs/static/data/glossary.json", encoding="utf-8", errors="replace") as f:
     db = json.load(f)
 
+# party platforms database
+with open("klimadiskurs/static/data/platforms.json", encoding="utf-8", errors="replace") as f:
+    platforms_db = json.load(f)
+
 # CSRF for form security
 csrf = CSRFProtect()
 

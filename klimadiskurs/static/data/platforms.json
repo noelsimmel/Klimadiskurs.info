@@ -1,0 +1,2810 @@
+{
+    "Investitionsklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1987"
+            ]
+        ]
+    },
+    "Klimaerhitzung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschonung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2017"
+            ]
+        ]
+    },
+    "UN-Klimabericht": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaschutzvereinbarung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2005"
+            ]
+        ]
+    },
+    "Erdklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klima-Dialog": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimafreundlich": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaanpassung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2017"
+            ]
+        ]
+    },
+    "Klimazerstörung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 6,
+            "Die Linke": 2,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 8,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2005"
+            ]
+        ]
+    },
+    "Klimaschutzallianz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaveränderung": {
+        "occurence_by_party": {
+            "AfD": 1,
+            "CDU": 2,
+            "FDP": 10,
+            "Die Grünen": 13,
+            "Die Linke": 0,
+            "Piratenpartei": 1,
+            "SPD": 1
+        },
+        "total_occurence": 28,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1980"
+            ]
+        ]
+    },
+    "Klimaaußenpolitik": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 1,
+            "Die Grünen": 4,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 8,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaregion": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klima-Abkommen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaeffekt": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2017"
+            ]
+        ]
+    },
+    "Klimakonvention": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimabelastung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2002"
+            ]
+        ]
+    },
+    "Klimaschützer": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimakomponente": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 2,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaabkommen": {
+        "occurence_by_party": {
+            "AfD": 2,
+            "CDU": 2,
+            "FDP": 2,
+            "Die Grünen": 18,
+            "Die Linke": 2,
+            "Piratenpartei": 0,
+            "SPD": 4
+        },
+        "total_occurence": 30,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimakrise": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 44,
+            "Die Linke": 9,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 53,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaklage": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimawandel": {
+        "occurence_by_party": {
+            "AfD": 4,
+            "CDU": 25,
+            "FDP": 18,
+            "Die Grünen": 39,
+            "Die Linke": 35,
+            "Piratenpartei": 1,
+            "SPD": 28
+        },
+        "total_occurence": 150,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2005"
+            ]
+        ]
+    },
+    "Klimapässe": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzprozess": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaverträglichkeitsprüfung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimadiplomatie": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2017"
+            ]
+        ]
+    },
+    "Klimarisikoversicherung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzleistung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutztechnologie": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 2
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2009"
+            ]
+        ]
+    },
+    "Klimagerechter": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaproblematik": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2002"
+            ]
+        ]
+    },
+    "Weltklimarat": {
+        "occurence_by_party": {
+            "AfD": 1,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 4,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 6,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "EU-Klimaschutz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaanlagen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimapartnerschaft": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimabrücke": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaänderungen": {
+        "occurence_by_party": {
+            "AfD": 1,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2002"
+            ]
+        ]
+    },
+    "Weltklimakonferenz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimaschutzsteuer": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "1990"
+            ]
+        ]
+    },
+    "Klimaschäden": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimakanzlerin": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "EU-Klimaschutzprogramm": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2009"
+            ]
+        ]
+    },
+    "Klimastützpunkt": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2021"
+            ]
+        ]
+    },
+    "Klima-Ziele": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutzhaushalt": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimagasausstoß": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaerwärmung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimaschutzinvestition": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimamotor": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2013"
+            ]
+        ]
+    },
+    "KlimaschutzVorbild": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "1998"
+            ]
+        ]
+    },
+    "Lernklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "SPD",
+                "1980"
+            ]
+        ]
+    },
+    "Klimaemissionsziel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutzplan": {
+        "occurence_by_party": {
+            "AfD": 3,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 7,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaallianz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutzstrategie": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 3,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 4,
+        "first_mentioned": [
+            [
+                "FDP",
+                "1994"
+            ]
+        ]
+    },
+    "Klimasystem": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klima-Sanierungsoffensive": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzinstrument": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 4,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klima-und": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 2,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2013"
+            ]
+        ]
+    },
+    "Klimakatstrophe": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzverpflichtung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaschutzprojekt": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 4,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimawirkung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutz-Sofortprogramm": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimafreundlichkeit": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimagipfel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1998"
+            ]
+        ]
+    },
+    "Klimaschutzkonzept": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 2,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaschutzpfad": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2013"
+            ]
+        ]
+    },
+    "Klimabonus-Fonds": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaflüchtlinge": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaschwankungen": {
+        "occurence_by_party": {
+            "AfD": 1,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "AfD",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaverschlechterungen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "1990"
+            ]
+        ]
+    },
+    "Klimarahmenkonvention": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimakonferenz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimaausstoß": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "UN-Klimaverhandlung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaschutzpolitik": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 3,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 2
+        },
+        "total_occurence": 9,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2002"
+            ]
+        ]
+    },
+    "Klimavertrag": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzprogramm": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 2
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "SPD",
+                "1994"
+            ]
+        ]
+    },
+    "Klimakiller-Subvention": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimavorsorge": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimaregime": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaschutzabkommen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 3,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 2
+        },
+        "total_occurence": 8,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutzaspekt": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimareserve": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2017"
+            ]
+        ]
+    },
+    "Klimageld": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaleistung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "EU-Klimaziel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimawohngeld": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 4,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaschutzstandard": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzfonds": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1998"
+            ]
+        ]
+    },
+    "Klima-Club": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimafinanztransfer": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 3,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaverpflichtung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimazone": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klima-Investition": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "EU-Klimaaußenbeauftragten": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzgedanke": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1994"
+            ]
+        ]
+    },
+    "Klimaschutzgesetzgebung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 1,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Piratenpartei",
+                "2013"
+            ]
+        ]
+    },
+    "Klimadividende": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 2,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutz-Investitions-Gesetz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2009"
+            ]
+        ]
+    },
+    "Klimawende": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "UN-Klimaschutzabkommens": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutzgrund": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimaschutzgesetz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 12,
+            "Die Linke": 3,
+            "Piratenpartei": 0,
+            "SPD": 4
+        },
+        "total_occurence": 19,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaneutralität": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 4,
+            "Die Grünen": 23,
+            "Die Linke": 5,
+            "Piratenpartei": 0,
+            "SPD": 2
+        },
+        "total_occurence": 36,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaunion": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaschutz-Innovationsfonds": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 1
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2009"
+            ]
+        ]
+    },
+    "Klimapolitisch": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2005"
+            ]
+        ]
+    },
+    "Klimabonus": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimafrage": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimazuschuss": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimakonzept": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 1,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Piratenpartei",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaverträglichkeit": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaentscheidung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2021"
+            ]
+        ]
+    },
+    "Klimapolitik": {
+        "occurence_by_party": {
+            "AfD": 2,
+            "CDU": 0,
+            "FDP": 10,
+            "Die Grünen": 12,
+            "Die Linke": 4,
+            "Piratenpartei": 0,
+            "SPD": 6
+        },
+        "total_occurence": 34,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimabewegung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 3,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 4,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaanpassungsgesetz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimabilanz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Innovationsklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Mikroklima": {
+        "occurence_by_party": {
+            "AfD": 2,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "AfD",
+                "2021"
+            ]
+        ]
+    },
+    "Klimapolitische": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaeffizienzreform": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaziel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 10,
+            "FDP": 3,
+            "Die Grünen": 16,
+            "Die Linke": 7,
+            "Piratenpartei": 1,
+            "SPD": 7
+        },
+        "total_occurence": 44,
+        "first_mentioned": [
+            [
+                "SPD",
+                "2005"
+            ]
+        ]
+    },
+    "UN-Klimagipfel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaschutzauflage": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimafonds": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 4,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimafolge": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 2,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaentwicklung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2009"
+            ]
+        ]
+    },
+    "Klimaverschmutzung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Weltklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 3,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 6,
+        "first_mentioned": [
+            [
+                "CDU",
+                "1990"
+            ]
+        ]
+    },
+    "Arbeitsklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "1990"
+            ]
+        ]
+    },
+    "Klimarisiko": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimaregulator": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutzziel": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 4,
+            "FDP": 7,
+            "Die Grünen": 9,
+            "Die Linke": 3,
+            "Piratenpartei": 0,
+            "SPD": 5
+        },
+        "total_occurence": 28,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2002"
+            ]
+        ]
+    },
+    "Klimafolgenanpassung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 1,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "2017"
+            ]
+        ]
+    },
+    "Klima-Außenpolitik": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaflüchtling": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 2,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimakooperation": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutz": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 52,
+            "FDP": 47,
+            "Die Grünen": 154,
+            "Die Linke": 46,
+            "Piratenpartei": 1,
+            "SPD": 28
+        },
+        "total_occurence": 328,
+        "first_mentioned": [
+            [
+                "CDU",
+                "1994"
+            ]
+        ]
+    },
+    "Klimapaket": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Wettklima": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 1,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1990"
+            ]
+        ]
+    },
+    "Klimakatastrophe": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 2,
+            "Die Grünen": 20,
+            "Die Linke": 16,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 38,
+        "first_mentioned": [
+            [
+                "Die Linke",
+                "1990"
+            ]
+        ]
+    },
+    "Klimaschutzmaßnahme": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 2,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimagas": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 4,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2002"
+            ]
+        ]
+    },
+    "Klimaschutzgründen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 3,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimakiller": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 5,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2009"
+            ]
+        ]
+    },
+    "Klimagerechtigkeit": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 9,
+            "Die Linke": 19,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 28,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2013"
+            ]
+        ]
+    },
+    "Klimaforschung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaproblem": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 0,
+            "FDP": 1,
+            "Die Grünen": 3,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 4,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "1994"
+            ]
+        ]
+    },
+    "Klimafinanzierung": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 4,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 5,
+        "first_mentioned": [
+            [
+                "Die Grünen",
+                "2017"
+            ]
+        ]
+    },
+    "Klimahysterie": {
+        "occurence_by_party": {
+            "AfD": 2,
+            "CDU": 0,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "AfD",
+                "2021"
+            ]
+        ]
+    },
+    "Klimatechnologie": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 0,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 1,
+        "first_mentioned": [
+            [
+                "CDU",
+                "2021"
+            ]
+        ]
+    },
+    "Klimaschutz-Abkommen": {
+        "occurence_by_party": {
+            "AfD": 0,
+            "CDU": 1,
+            "FDP": 1,
+            "Die Grünen": 0,
+            "Die Linke": 0,
+            "Piratenpartei": 0,
+            "SPD": 0
+        },
+        "total_occurence": 2,
+        "first_mentioned": [
+            [
+                "FDP",
+                "2013"
+            ]
+        ]
+    }
+}

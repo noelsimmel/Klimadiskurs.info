@@ -1,0 +1,26 @@
+<h1 id="glossary-header">Wahlprogramme</h1>
+
+<div id="glossary-content">
+  <!-- class must be "list" for List.js to work -->
+  <ul class="list">
+    {% for g in glossary %}
+      <li>{{ g }}</li>
+    {% endfor %}
+  </ul>
+
+  <!-- on phone screens, don't use List.js/pagination -->
+  <!-- just show the last 30 entries. on bigger screens this is hidden -->
+  <ul class="glossary-one-list">
+    {% for g in glossary[:30] %}
+      <li>{{ g }}</li>
+    {% endfor %}
+  </ul>
+
+  <!-- include code for pagination if list is longer than items_per_page -->
+  {% if glossary|length > 30 %}
+    <div class="glossary-pagination">
+      <button id="btn-prev">&#8592;</button><br>
+      <button id="btn-next">&#8594;</button><br>
+    </div>
+  {% endif %}
+</div>

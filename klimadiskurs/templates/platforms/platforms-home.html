@@ -1,0 +1,48 @@
+{% extends "home.html" %}
+
+{% block leftcontent %}
+  <div class="full-width">
+    <p>
+      Mit dem Ziel den Klimawandeldiskurs in der deutschen Politik zugänglicher zu machen, 
+      zeigen wir hier eine Übersicht zu Klimakomposita in deutschen Wahlprogrammen seit 
+      Gründung der Bundesrepublik Deutschland 1949.
+    </p>
+    <p>
+      Wahlprogramme sind die Schlüsselelemente des Wahlkampfs einer Partei 
+      und stellen ihre Ansichten, Ziele und Versprechen für eine Regierungsbeteiligung dar. 
+      Wichtig ist dabei, dass die Wahlprogramme die Gesamtheit der Partei 
+      (oder zumindest ihren demokratisch gewählten gemeinsamen Nenner), 
+      sozusagen ihre Identität, darstellen. 
+      Die Analyse des Klimadiskurses in deutschen Wahlprogrammen von 1949 bis 2021 
+      zeigt also gleichwohl Trends in Parteien, 
+      als auch in der politischen Landschafts Deutschlands allgemein.
+      Mithilfe der Daten des <a href="https://manifesto-project.wzb.eu/">Manifesto Projekts</a>
+      haben wir die Wahlprogramme der 20 Bundestagswahlen 
+      hinsichtlich der enthaltenen Klimakomposita analysiert. 
+      Da bis zu den 1980er Jahren keine Klimakomposita in den Wahlprogrammen verwendet wurden, 
+      haben wir die Visualisierungen an der Zeitachse entsprechend angepasst.
+    </p>
+  </div>
+  
+<!-- graphs are opened in a modal by clicking on the corresponding thumbnail -->
+{% for graph in include_html %}
+  <!-- thumbnail -->
+  <a href="#graph-{{ loop.index0 }}">
+    <img src="/static/img/platforms/{{ graph.replace('.html', '.png') }}" 
+         class="modal-open-button">
+  </a>
+
+  <!-- modal content (graph HTML) -->
+  <div id="graph-{{ loop.index0 }}" class="modal">
+    <div class="modal-content">
+      {% include "platforms/graphs/" + graph %}
+    </div>
+    <a href="#" class="modal-close"></a>
+  </div>
+{% endfor %}
+
+{% endblock %}
+
+{% block rightcontent %}
+  {% include "platforms/platforms-glossary.html" %}
+{% endblock %}
