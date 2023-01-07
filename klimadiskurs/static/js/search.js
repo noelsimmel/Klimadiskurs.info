@@ -67,7 +67,7 @@ function getGlossaryContent (glossary, resultsCount, searchTerm) {
         
     // if search results
     } else {
-        // this is the javascript version of glossary.html
+        // this is the javascript version of goecke-glossary.html
         var newContent = "<ul class='list'>";
         for (var i = 0; i < resultsCount; i++) {
             var entry = Object.keys(glossary)[i];

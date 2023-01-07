@@ -25,12 +25,12 @@ tweeted = [t.strip() for t in get_github_file_decoded("tweeted_terms.txt").split
 def home():
     """Home route (/). Logic is contained in home_route() in utils.py.
     
-    Renders: home.html
+    Renders: goecke-home.html
     """
 
     # display full database sorted by newest entries
     glossary = sorted(db, key=lambda k: db[k]["id"], reverse=True)
-    return home_route("home.html", glossary, tweeted)
+    return home_route("goecke/goecke-home.html", glossary, tweeted)
 
 @glossary.route("/search/<query>", methods=["GET", "POST"])
 @glossary.route("/search/<query>/", methods=["GET", "POST"])
@@ -49,12 +49,12 @@ def search(query):
     # if search field is empty, search.js puts "None" as placeholder
     # in that case return all entries sorted alphabetically (takes a few seconds)
     if query == "None":
-        return home_route("searchresult.html", sorted(db), tweeted)
+        return home_route("goecke/goecke-searchresult.html", sorted(db), tweeted)
 
     results = query_db(query)
     # sort results alphabetically
     results = sorted(results, key=lambda k: results[k]["term"])
-    return home_route("searchresult.html", results, tweeted)
+    return home_route("goecke/goecke-searchresult.html", results, tweeted)
 
 @glossary.route("/api")
 def api():
@@ -83,7 +83,7 @@ def define(term):
     Args:
         term (str): Term in the glossary.
 
-    Renders: definitions.html
+    Renders: goecke-definitions.html
     """
 
     # check if term is in database. if not, show error page
@@ -108,7 +108,7 @@ def define(term):
     # defined terms is a list of terms with definitions
     # if these appear in this term's definition, they are hyperlinked
     defined_terms = [term for term in db.keys() if db[term]["definition"]]
-    return render_template("definitions.html", term=term.capitalize(), entry=entry,
+    return render_template("goecke/goecke-definitions.html", term=term.capitalize(), entry=entry,
                            dwds=dwds, defined=defined_terms, tweets=tweets)
 
 @glossary.route("/about")

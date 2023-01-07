@@ -1,0 +1,26 @@
+{% extends "home.html" %}
+
+{% block leftcontent %}
+  <div class="full-width">
+    <p><strong>Willkommen bei unserem Monitoring-Projekt zum Klimawandeldiskurs!</strong></p>
+    <p>Rechts sehen Sie die <strong>{{ db_size }}</strong> uns bekannten Klimakomposita.</p>
+    <p>Sie können mit den Pfeiltasten navigieren oder auf das Alphabet klicken,
+      um direkt zu einem bestimmten Buchstaben zu springen.</p>
+    <p>Wenn für einen Begriff Glossarinhalte verfügbar sind,
+      sind diese in der Liste verlinkt.</p>
+  </div>
+
+    {% include "searchform.html" %}
+    {% include "submitform.html" %}
+    <!-- this is the code for the modal ("popup") submit form -->
+    {% include "submitmodal.html" %}
+{% endblock %}
+
+{% block rightcontent %}
+    <!-- display default glossary view -->
+    <!-- this is replaced by goecke-searchresult.html on the /search/ view -->
+    <!-- technically, goecke-glossary.html is a placeholder for goecke-searchresult.html -->
+    {% block searchresult %}
+      {% include "goecke/goecke-glossary.html" %}
+    {% endblock searchresult %}
+{% endblock %}
