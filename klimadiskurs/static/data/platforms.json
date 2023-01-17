@@ -1,6 +1,6 @@
 {
     "Investitionsklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -9,7 +9,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -18,7 +18,7 @@
         ]
     },
     "Klimaerhitzung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -27,7 +27,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -36,7 +36,7 @@
         ]
     },
     "Klimaschonung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -45,7 +45,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -54,7 +54,7 @@
         ]
     },
     "UN-Klimabericht": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -63,7 +63,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -72,7 +72,7 @@
         ]
     },
     "Klimaschutzvereinbarung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -81,7 +81,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "CDU",
@@ -90,7 +90,7 @@
         ]
     },
     "Erdklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -99,7 +99,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "FDP",
@@ -108,7 +108,7 @@
         ]
     },
     "Klima-Dialog": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -117,7 +117,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -126,7 +126,7 @@
         ]
     },
     "Klimafreundlich": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -135,7 +135,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -144,7 +144,7 @@
         ]
     },
     "Klimaanpassung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -153,7 +153,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "SPD",
@@ -162,7 +162,7 @@
         ]
     },
     "Klimazerstörung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -171,7 +171,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 8,
+        "total_occurrence": 8,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -180,7 +180,7 @@
         ]
     },
     "Klimaschutzallianz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -189,7 +189,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -198,7 +198,7 @@
         ]
     },
     "Klimaveränderung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 1,
             "CDU": 2,
             "FDP": 10,
@@ -207,7 +207,7 @@
             "Piratenpartei": 1,
             "SPD": 1
         },
-        "total_occurence": 28,
+        "total_occurrence": 28,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -216,7 +216,7 @@
         ]
     },
     "Klimaaußenpolitik": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 1,
@@ -225,7 +225,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 8,
+        "total_occurrence": 8,
         "first_mentioned": [
             [
                 "FDP",
@@ -234,7 +234,7 @@
         ]
     },
     "Klimaregion": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -243,7 +243,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -252,7 +252,7 @@
         ]
     },
     "Klima-Abkommen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -261,7 +261,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -270,7 +270,7 @@
         ]
     },
     "Klimaeffekt": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -279,7 +279,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -288,7 +288,7 @@
         ]
     },
     "Klimakonvention": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -297,7 +297,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -306,7 +306,7 @@
         ]
     },
     "Klimabelastung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -315,7 +315,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -324,7 +324,7 @@
         ]
     },
     "Klimaschützer": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -333,7 +333,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -342,7 +342,7 @@
         ]
     },
     "Klimakomponente": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -351,7 +351,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -360,7 +360,7 @@
         ]
     },
     "Klimaabkommen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 2,
             "CDU": 2,
             "FDP": 2,
@@ -369,7 +369,7 @@
             "Piratenpartei": 0,
             "SPD": 4
         },
-        "total_occurence": 30,
+        "total_occurrence": 30,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -378,7 +378,7 @@
         ]
     },
     "Klimakrise": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -387,7 +387,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 53,
+        "total_occurrence": 53,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -396,7 +396,7 @@
         ]
     },
     "Klimaklage": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -405,7 +405,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -414,7 +414,7 @@
         ]
     },
     "Klimawandel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 4,
             "CDU": 25,
             "FDP": 18,
@@ -423,7 +423,7 @@
             "Piratenpartei": 1,
             "SPD": 28
         },
-        "total_occurence": 150,
+        "total_occurrence": 150,
         "first_mentioned": [
             [
                 "FDP",
@@ -432,7 +432,7 @@
         ]
     },
     "Klimapässe": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -441,7 +441,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -450,7 +450,7 @@
         ]
     },
     "Klimaschutzprozess": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -459,7 +459,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -468,7 +468,7 @@
         ]
     },
     "Klimaverträglichkeitsprüfung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -477,7 +477,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -486,7 +486,7 @@
         ]
     },
     "Klimadiplomatie": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -495,7 +495,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "SPD",
@@ -504,7 +504,7 @@
         ]
     },
     "Klimarisikoversicherung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -513,7 +513,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -522,7 +522,7 @@
         ]
     },
     "Klimaschutzleistung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -531,7 +531,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -540,7 +540,7 @@
         ]
     },
     "Klimaschutztechnologie": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 0,
@@ -549,7 +549,7 @@
             "Piratenpartei": 0,
             "SPD": 2
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "SPD",
@@ -558,7 +558,7 @@
         ]
     },
     "Klimagerechter": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -567,7 +567,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -576,7 +576,7 @@
         ]
     },
     "Klimaproblematik": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -585,7 +585,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "CDU",
@@ -594,7 +594,7 @@
         ]
     },
     "Weltklimarat": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 1,
             "CDU": 0,
             "FDP": 1,
@@ -603,7 +603,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 6,
+        "total_occurrence": 6,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -612,7 +612,7 @@
         ]
     },
     "EU-Klimaschutz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -621,7 +621,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -630,7 +630,7 @@
         ]
     },
     "Klimaanlagen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -639,7 +639,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -648,7 +648,7 @@
         ]
     },
     "Klimapartnerschaft": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -657,7 +657,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -666,7 +666,7 @@
         ]
     },
     "Klimabrücke": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -675,7 +675,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -684,7 +684,7 @@
         ]
     },
     "Klimaänderungen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 1,
             "CDU": 0,
             "FDP": 0,
@@ -693,7 +693,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -702,7 +702,7 @@
         ]
     },
     "Weltklimakonferenz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -711,7 +711,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "FDP",
@@ -720,7 +720,7 @@
         ]
     },
     "Klimaschutzsteuer": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -729,7 +729,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -738,7 +738,7 @@
         ]
     },
     "Klimaschäden": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -747,7 +747,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -756,7 +756,7 @@
         ]
     },
     "Klimakanzlerin": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -765,7 +765,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -774,7 +774,7 @@
         ]
     },
     "EU-Klimaschutzprogramm": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -783,7 +783,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -792,7 +792,7 @@
         ]
     },
     "Klimastützpunkt": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -801,7 +801,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -810,7 +810,7 @@
         ]
     },
     "Klima-Ziele": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -819,7 +819,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -828,7 +828,7 @@
         ]
     },
     "Klimaschutzhaushalt": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -837,7 +837,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -846,7 +846,7 @@
         ]
     },
     "Klimagasausstoß": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -855,7 +855,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -864,7 +864,7 @@
         ]
     },
     "Klimaerwärmung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -873,7 +873,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -882,7 +882,7 @@
         ]
     },
     "Klimaschutzinvestition": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -891,7 +891,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -900,7 +900,7 @@
         ]
     },
     "Klimamotor": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -909,7 +909,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -918,7 +918,7 @@
         ]
     },
     "KlimaschutzVorbild": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -927,7 +927,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -936,7 +936,7 @@
         ]
     },
     "Lernklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -945,7 +945,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "SPD",
@@ -954,7 +954,7 @@
         ]
     },
     "Klimaemissionsziel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -963,7 +963,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "SPD",
@@ -972,7 +972,7 @@
         ]
     },
     "Klimaschutzplan": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 3,
             "CDU": 1,
             "FDP": 1,
@@ -981,7 +981,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 7,
+        "total_occurrence": 7,
         "first_mentioned": [
             [
                 "FDP",
@@ -990,7 +990,7 @@
         ]
     },
     "Klimaallianz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -999,7 +999,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1008,7 +1008,7 @@
         ]
     },
     "Klimaschutzstrategie": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 3,
@@ -1017,7 +1017,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 4,
+        "total_occurrence": 4,
         "first_mentioned": [
             [
                 "FDP",
@@ -1026,7 +1026,7 @@
         ]
     },
     "Klimasystem": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1035,7 +1035,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1044,7 +1044,7 @@
         ]
     },
     "Klima-Sanierungsoffensive": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1053,7 +1053,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1062,7 +1062,7 @@
         ]
     },
     "Klimaschutzinstrument": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1071,7 +1071,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 4,
+        "total_occurrence": 4,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1080,7 +1080,7 @@
         ]
     },
     "Klima-und": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 2,
@@ -1089,7 +1089,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "FDP",
@@ -1098,7 +1098,7 @@
         ]
     },
     "Klimakatstrophe": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1107,7 +1107,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1116,7 +1116,7 @@
         ]
     },
     "Klimaschutzverpflichtung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -1125,7 +1125,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "CDU",
@@ -1134,7 +1134,7 @@
         ]
     },
     "Klimaschutzprojekt": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 4,
@@ -1143,7 +1143,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "FDP",
@@ -1152,7 +1152,7 @@
         ]
     },
     "Klimawirkung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1161,7 +1161,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1170,7 +1170,7 @@
         ]
     },
     "Klimaschutz-Sofortprogramm": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1179,7 +1179,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1188,7 +1188,7 @@
         ]
     },
     "Klimafreundlichkeit": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1197,7 +1197,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1206,7 +1206,7 @@
         ]
     },
     "Klimagipfel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1215,7 +1215,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1224,7 +1224,7 @@
         ]
     },
     "Klimaschutzkonzept": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1233,7 +1233,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1242,7 +1242,7 @@
         ]
     },
     "Klimaschutzpfad": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1251,7 +1251,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1260,7 +1260,7 @@
         ]
     },
     "Klimabonus-Fonds": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1269,7 +1269,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1278,7 +1278,7 @@
         ]
     },
     "Klimaflüchtlinge": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1287,7 +1287,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1296,7 +1296,7 @@
         ]
     },
     "Klimaschwankungen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 1,
             "CDU": 0,
             "FDP": 0,
@@ -1305,7 +1305,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "AfD",
@@ -1314,7 +1314,7 @@
         ]
     },
     "Klimaverschlechterungen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1323,7 +1323,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -1332,7 +1332,7 @@
         ]
     },
     "Klimarahmenkonvention": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1341,7 +1341,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "FDP",
@@ -1350,7 +1350,7 @@
         ]
     },
     "Klimakonferenz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -1359,7 +1359,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1368,7 +1368,7 @@
         ]
     },
     "Klimaausstoß": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1377,7 +1377,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1386,7 +1386,7 @@
         ]
     },
     "UN-Klimaverhandlung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1395,7 +1395,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -1404,7 +1404,7 @@
         ]
     },
     "Klimaschutzpolitik": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 3,
@@ -1413,7 +1413,7 @@
             "Piratenpartei": 0,
             "SPD": 2
         },
-        "total_occurence": 9,
+        "total_occurrence": 9,
         "first_mentioned": [
             [
                 "CDU",
@@ -1422,7 +1422,7 @@
         ]
     },
     "Klimavertrag": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1431,7 +1431,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1440,7 +1440,7 @@
         ]
     },
     "Klimaschutzprogramm": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1449,7 +1449,7 @@
             "Piratenpartei": 0,
             "SPD": 2
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "SPD",
@@ -1458,7 +1458,7 @@
         ]
     },
     "Klimakiller-Subvention": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1467,7 +1467,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1476,7 +1476,7 @@
         ]
     },
     "Klimavorsorge": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1485,7 +1485,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -1494,7 +1494,7 @@
         ]
     },
     "Klimaregime": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1503,7 +1503,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1512,7 +1512,7 @@
         ]
     },
     "Klimaschutzabkommen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -1521,7 +1521,7 @@
             "Piratenpartei": 0,
             "SPD": 2
         },
-        "total_occurence": 8,
+        "total_occurrence": 8,
         "first_mentioned": [
             [
                 "FDP",
@@ -1530,7 +1530,7 @@
         ]
     },
     "Klimaschutzaspekt": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -1539,7 +1539,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -1548,7 +1548,7 @@
         ]
     },
     "Klimareserve": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1557,7 +1557,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -1566,7 +1566,7 @@
         ]
     },
     "Klimageld": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1575,7 +1575,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1584,7 +1584,7 @@
         ]
     },
     "Klimaleistung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 0,
@@ -1593,7 +1593,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1602,7 +1602,7 @@
         ]
     },
     "EU-Klimaziel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1611,7 +1611,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1620,7 +1620,7 @@
         ]
     },
     "Klimawohngeld": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1629,7 +1629,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 4,
+        "total_occurrence": 4,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1638,7 +1638,7 @@
         ]
     },
     "Klimaschutzstandard": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -1647,7 +1647,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1656,7 +1656,7 @@
         ]
     },
     "Klimaschutzfonds": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1665,7 +1665,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1674,7 +1674,7 @@
         ]
     },
     "Klima-Club": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1683,7 +1683,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1692,7 +1692,7 @@
         ]
     },
     "Klimafinanztransfer": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1701,7 +1701,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1710,7 +1710,7 @@
         ]
     },
     "Klimaverpflichtung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1719,7 +1719,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1728,7 +1728,7 @@
         ]
     },
     "Klimazone": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1737,7 +1737,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1746,7 +1746,7 @@
         ]
     },
     "Klima-Investition": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1755,7 +1755,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1764,7 +1764,7 @@
         ]
     },
     "EU-Klimaaußenbeauftragten": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -1773,7 +1773,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -1782,7 +1782,7 @@
         ]
     },
     "Klimaschutzgedanke": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1791,7 +1791,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1800,7 +1800,7 @@
         ]
     },
     "Klimaschutzgesetzgebung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1809,7 +1809,7 @@
             "Piratenpartei": 1,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Piratenpartei",
@@ -1818,7 +1818,7 @@
         ]
     },
     "Klimadividende": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 2,
@@ -1827,7 +1827,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "FDP",
@@ -1836,7 +1836,7 @@
         ]
     },
     "Klimaschutz-Investitions-Gesetz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1845,7 +1845,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "SPD",
@@ -1854,7 +1854,7 @@
         ]
     },
     "Klimawende": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1863,7 +1863,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1872,7 +1872,7 @@
         ]
     },
     "UN-Klimaschutzabkommens": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1881,7 +1881,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1890,7 +1890,7 @@
         ]
     },
     "Klimaschutzgrund": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -1899,7 +1899,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -1908,7 +1908,7 @@
         ]
     },
     "Klimaschutzgesetz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1917,7 +1917,7 @@
             "Piratenpartei": 0,
             "SPD": 4
         },
-        "total_occurence": 19,
+        "total_occurrence": 19,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1926,7 +1926,7 @@
         ]
     },
     "Klimaneutralität": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 4,
@@ -1935,7 +1935,7 @@
             "Piratenpartei": 0,
             "SPD": 2
         },
-        "total_occurence": 36,
+        "total_occurrence": 36,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -1944,7 +1944,7 @@
         ]
     },
     "Klimaunion": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1953,7 +1953,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1962,7 +1962,7 @@
         ]
     },
     "Klimaschutz-Innovationsfonds": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1971,7 +1971,7 @@
             "Piratenpartei": 0,
             "SPD": 1
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "SPD",
@@ -1980,7 +1980,7 @@
         ]
     },
     "Klimapolitisch": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -1989,7 +1989,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -1998,7 +1998,7 @@
         ]
     },
     "Klimabonus": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2007,7 +2007,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2016,7 +2016,7 @@
         ]
     },
     "Klimafrage": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2025,7 +2025,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2034,7 +2034,7 @@
         ]
     },
     "Klimazuschuss": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2043,7 +2043,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2052,7 +2052,7 @@
         ]
     },
     "Klimakonzept": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2061,7 +2061,7 @@
             "Piratenpartei": 1,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Piratenpartei",
@@ -2070,7 +2070,7 @@
         ]
     },
     "Klimaverträglichkeit": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -2079,7 +2079,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -2088,7 +2088,7 @@
         ]
     },
     "Klimaentscheidung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2097,7 +2097,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2106,7 +2106,7 @@
         ]
     },
     "Klimapolitik": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 2,
             "CDU": 0,
             "FDP": 10,
@@ -2115,7 +2115,7 @@
             "Piratenpartei": 0,
             "SPD": 6
         },
-        "total_occurence": 34,
+        "total_occurrence": 34,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2124,7 +2124,7 @@
         ]
     },
     "Klimabewegung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2133,7 +2133,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 4,
+        "total_occurrence": 4,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -2142,7 +2142,7 @@
         ]
     },
     "Klimaanpassungsgesetz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2151,7 +2151,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2160,7 +2160,7 @@
         ]
     },
     "Klimabilanz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2169,7 +2169,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2178,7 +2178,7 @@
         ]
     },
     "Innovationsklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2187,7 +2187,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2196,7 +2196,7 @@
         ]
     },
     "Mikroklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 2,
             "CDU": 0,
             "FDP": 0,
@@ -2205,7 +2205,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "AfD",
@@ -2214,7 +2214,7 @@
         ]
     },
     "Klimapolitische": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2223,7 +2223,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2232,7 +2232,7 @@
         ]
     },
     "Klimaeffizienzreform": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2241,7 +2241,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2250,7 +2250,7 @@
         ]
     },
     "Klimaziel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 10,
             "FDP": 3,
@@ -2259,7 +2259,7 @@
             "Piratenpartei": 1,
             "SPD": 7
         },
-        "total_occurence": 44,
+        "total_occurrence": 44,
         "first_mentioned": [
             [
                 "SPD",
@@ -2268,7 +2268,7 @@
         ]
     },
     "UN-Klimagipfel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2277,7 +2277,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2286,7 +2286,7 @@
         ]
     },
     "Klimaschutzauflage": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2295,7 +2295,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2304,7 +2304,7 @@
         ]
     },
     "Klimafonds": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -2313,7 +2313,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2322,7 +2322,7 @@
         ]
     },
     "Klimafolge": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2331,7 +2331,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -2340,7 +2340,7 @@
         ]
     },
     "Klimaentwicklung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2349,7 +2349,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -2358,7 +2358,7 @@
         ]
     },
     "Klimaverschmutzung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2367,7 +2367,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2376,7 +2376,7 @@
         ]
     },
     "Weltklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -2385,7 +2385,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 6,
+        "total_occurrence": 6,
         "first_mentioned": [
             [
                 "CDU",
@@ -2394,7 +2394,7 @@
         ]
     },
     "Arbeitsklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2403,7 +2403,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2412,7 +2412,7 @@
         ]
     },
     "Klimarisiko": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2421,7 +2421,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2430,7 +2430,7 @@
         ]
     },
     "Klimaregulator": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -2439,7 +2439,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "FDP",
@@ -2448,7 +2448,7 @@
         ]
     },
     "Klimaschutzziel": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 4,
             "FDP": 7,
@@ -2457,7 +2457,7 @@
             "Piratenpartei": 0,
             "SPD": 5
         },
-        "total_occurence": 28,
+        "total_occurrence": 28,
         "first_mentioned": [
             [
                 "FDP",
@@ -2466,7 +2466,7 @@
         ]
     },
     "Klimafolgenanpassung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2475,7 +2475,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -2484,7 +2484,7 @@
         ]
     },
     "Klima-Außenpolitik": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2493,7 +2493,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2502,7 +2502,7 @@
         ]
     },
     "Klimaflüchtling": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2511,7 +2511,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2520,7 +2520,7 @@
         ]
     },
     "Klimakooperation": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 0,
@@ -2529,7 +2529,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "CDU",
@@ -2538,7 +2538,7 @@
         ]
     },
     "Klimaschutz": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 52,
             "FDP": 47,
@@ -2547,7 +2547,7 @@
             "Piratenpartei": 1,
             "SPD": 28
         },
-        "total_occurence": 328,
+        "total_occurrence": 328,
         "first_mentioned": [
             [
                 "CDU",
@@ -2556,7 +2556,7 @@
         ]
     },
     "Klimapaket": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2565,7 +2565,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2574,7 +2574,7 @@
         ]
     },
     "Wettklima": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2583,7 +2583,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2592,7 +2592,7 @@
         ]
     },
     "Klimakatastrophe": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 2,
@@ -2601,7 +2601,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 38,
+        "total_occurrence": 38,
         "first_mentioned": [
             [
                 "Die Linke",
@@ -2610,7 +2610,7 @@
         ]
     },
     "Klimaschutzmaßnahme": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 2,
             "FDP": 0,
@@ -2619,7 +2619,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2628,7 +2628,7 @@
         ]
     },
     "Klimagas": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -2637,7 +2637,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2646,7 +2646,7 @@
         ]
     },
     "Klimaschutzgründen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2655,7 +2655,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 3,
+        "total_occurrence": 3,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2664,7 +2664,7 @@
         ]
     },
     "Klimakiller": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2673,7 +2673,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2682,7 +2682,7 @@
         ]
     },
     "Klimagerechtigkeit": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 0,
@@ -2691,7 +2691,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 28,
+        "total_occurrence": 28,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2700,7 +2700,7 @@
         ]
     },
     "Klimaforschung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2709,7 +2709,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2718,7 +2718,7 @@
         ]
     },
     "Klimaproblem": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 0,
             "FDP": 1,
@@ -2727,7 +2727,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 4,
+        "total_occurrence": 4,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2736,7 +2736,7 @@
         ]
     },
     "Klimafinanzierung": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2745,7 +2745,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 5,
+        "total_occurrence": 5,
         "first_mentioned": [
             [
                 "Die Grünen",
@@ -2754,7 +2754,7 @@
         ]
     },
     "Klimahysterie": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 2,
             "CDU": 0,
             "FDP": 0,
@@ -2763,7 +2763,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "AfD",
@@ -2772,7 +2772,7 @@
         ]
     },
     "Klimatechnologie": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 0,
@@ -2781,7 +2781,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 1,
+        "total_occurrence": 1,
         "first_mentioned": [
             [
                 "CDU",
@@ -2790,7 +2790,7 @@
         ]
     },
     "Klimaschutz-Abkommen": {
-        "occurence_by_party": {
+        "occurrence_by_party": {
             "AfD": 0,
             "CDU": 1,
             "FDP": 1,
@@ -2799,7 +2799,7 @@
             "Piratenpartei": 0,
             "SPD": 0
         },
-        "total_occurence": 2,
+        "total_occurrence": 2,
         "first_mentioned": [
             [
                 "FDP",
