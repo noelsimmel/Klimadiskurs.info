@@ -17,17 +17,24 @@
 <!-- List.js 2.3.1 -->
 <script src="{{ url_for('static', filename='js/list.min.js') }}"></script>
 
-<!-- JS code for search -->
-<script src="{{ url_for('static', filename='js/search.js') }}"></script>
-
-<!-- JS code for pagination -->
 <!-- make certain variables available for JS files. errors on the next lines can be ignored -->
 <script type="text/javascript">
   const glossaryLength = {{ glossary|length }}; 
   const itemsPerPage = {{ items_per_page }};
   const enableSubmissions = {{ enable_submissions }};
-  const tweetedTerms = {{ tweeted_terms|safe }};    // mark as safe so ' charaters aren't escaped
+  let tweetedTerms = 0;
 </script>
+
+{% if tweeted_terms is defined %}
+  <script>
+    tweetedTerms = {{ tweeted_terms|safe }};    // mark as safe so ' charaters aren't escaped
+  </script>
+{% endif %}
+
+<!-- JS code for search -->
+<script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
+<!-- JS code for pagination -->
 <script src="{{ url_for('static', filename='js/pagination.js') }}"></script>
 
 <!-- JS code for collapsible -->
