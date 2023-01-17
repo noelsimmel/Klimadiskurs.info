@@ -14,7 +14,7 @@ try:
 except github.GithubException.BadCredentialsException:
     current_app.logger.error("Bad GitHub credentials. Maybe the personal access token has expired.")
 
-def home_route(template, glossary, tweeted=[], include_html=[]):
+def home_route(template, **kwargs):
     """Route to the home page.
     Handles new term submissions and random button.
     Separate function because this logic is used by / and /search routes. 
@@ -46,8 +46,7 @@ def home_route(template, glossary, tweeted=[], include_html=[]):
     except IndexError:
         random_entry = "Klimaleugner"
 
-    return render_template(template, glossary=glossary, tweeted_terms=tweeted,
-                           include_html=include_html, random_entry=random_entry, 
+    return render_template(template, **kwargs, random_entry=random_entry, 
                            form=form, db_size=len(db), enable_submissions=ENABLE_SUBMISSIONS, 
                            items_per_page=ITEMS_PER_PAGE)
 

@@ -20,7 +20,7 @@ twitter_api = connect_to_twitter()
 
 # 3. get list of tweeted terms from GitHub
 # this means the glossary view will only be updated on Heroku dyno cycling (1x/day)!
-tweeted = [t.strip() for t in get_github_file_decoded("tweeted_terms.txt").split()]
+tweeted_terms = [t.strip() for t in get_github_file_decoded("tweeted_terms.txt").split()]
 
 @glossary.route("/", methods=["GET", "POST"])
 def home():
@@ -31,7 +31,7 @@ def home():
 
     # display full database sorted by newest entries
     glossary = sorted(db, key=lambda k: db[k]["id"], reverse=True)
-    return home_route("goecke/goecke-home.html", glossary, tweeted)
+    return home_route("goecke/goecke-home.html", glossary=glossary, tweeted_terms=tweeted_terms)
 
 @glossary.route("/search/<query>", methods=["GET", "POST"])
 @glossary.route("/search/<query>/", methods=["GET", "POST"])
@@ -50,12 +50,12 @@ def search(query):
     # if search field is empty, search.js puts "None" as placeholder
     # in that case return all entries sorted alphabetically (takes a few seconds)
     if query == "None":
-        return home_route("goecke/goecke-searchresult.html", sorted(db), tweeted)
+        return home_route("goecke/goecke-searchresult.html", sorted(db), tweeted_terms)
 
     results = query_db(query)
     # sort results alphabetically
     results = sorted(results, key=lambda k: results[k]["term"])
-    return home_route("goecke/goecke-searchresult.html", results, tweeted)
+    return home_route("goecke/goecke-searchresult.html", results, tweeted_terms)
 
 @glossary.route("/api")
 def api():
@@ -128,7 +128,7 @@ def about():
 
     stats = Statistics(n,   # total entries in db
                        sum(1 for v in db.values() if v["definition"]),  # with definition
-                       len(tweeted),    # with recent tweets
+                       len(tweeted_terms),    # with recent tweets
                        # percentage of entries per group
                        int(sum(100 for v in db.values() if 1 in v["association"])/n),
                        int(sum(100 for v in db.values() if 0 in v["association"])/n),
@@ -182,10 +182,16 @@ def download_submissions():
 @glossary.route("/wahlprogramme")
 def wahlprogramme():
     """
-    Route for party platforms research by Juliane Hanel (/wahlprogramme).
+    Route for party platforms research by Juliane Hanel.
     """
 
-    glossary = sorted(platforms_db)
     graphs = get_files_in_directory("klimadiskurs/templates/platforms/graphs", ".html")
+    
+    highest_party_occurrence = dict()
+    for term in platforms_db:
+        term_usage = platforms_db[term]["occurrence_by_party"]
+        max_value = max(term_usage.values())
+        highest_party_occurrence[term] = [k for k,v in term_usage.items() if v == max_value]
 
-    return home_route("platforms/platforms-home.html", glossary, include_html=graphs)
+    return home_route("platforms/platforms-home.html", glossary=platforms_db, 
+                        include_html=graphs, highest_party_occurrence=highest_party_occurrence)
