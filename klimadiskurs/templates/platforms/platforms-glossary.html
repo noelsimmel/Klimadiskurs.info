@@ -4,14 +4,32 @@
   <!-- class must be "list" for List.js to work -->
   <ul class="list">
     {% for g in glossary %}
-      <li>{{ g }}</li>
+      <li class="collapsible">{{ g }}</li>
+      <div class="content">
+        {% if glossary[g]["total_occurrence"] == 1 %}
+          Bisher nur 1x erwähnt,
+          von {{ glossary[g]["first_mentioned"][0][0] }} 
+          im Jahr {{ glossary[g]["first_mentioned"][0][1] }}. 
+        {% else %}
+          Insgesamt {{ glossary[g]["total_occurrence"] }}x erwähnt,
+          am häufigsten von {{ highest_party_occurrence[g][0] }}
+          {%- if highest_party_occurrence[g] | length > 1 -%}
+            {%- for party in highest_party_occurrence[g][1:] -%}
+              , {{ party }}
+            {%- endfor -%}
+          {%- endif -%}
+          . 
+          Zuerst erwähnt von {{ glossary[g]["first_mentioned"][0][0] }} 
+          im Jahr {{ glossary[g]["first_mentioned"][0][1] }}.
+        {% endif %}
+      </div>
     {% endfor %}
   </ul>
 
   <!-- on phone screens, don't use List.js/pagination -->
   <!-- just show the last 30 entries. on bigger screens this is hidden -->
   <ul class="glossary-one-list">
-    {% for g in glossary[:30] %}
+    {% for g in (glossary|sort)[:30] %}
       <li>{{ g }}</li>
     {% endfor %}
   </ul>
