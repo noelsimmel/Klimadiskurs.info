@@ -56,26 +56,6 @@ h1#glossary-header {
     padding: 2px 8px;
 }
 
-
-/* || collapsible information (for Wahlprogramme/platforms) */
-/* https://stackoverflow.com/a/61218186 */
-.collapsible {
-    width: fit-content;
-    color: var(--accent-color);
-    font-weight: bold;
-    cursor: pointer;
-}
-  
-.content {
-    max-height: 0;
-    margin-top: 0px;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    width: 70%;
-    font-size: 10pt !important;
-}
-
-
 /* || responsive design */
 ul.glossary-one-list {
     display: none;
@@ -154,4 +134,32 @@ ul.glossary-one-list {
         grid-template-rows: repeat(10, auto);
         grid-auto-flow: column;
     }
+}
+
+/* || collapsible information (for Wahlprogramme/platforms) */
+/* https://stackoverflow.com/a/61218186 */
+
+/* twice as many rows on collapsible lists
+because we have the list item + .content div */
+li.collapsible {
+    width: fit-content;
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.content {
+    max-height: 0;
+    margin-top: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 70%;
+    font-size: 10pt !important;
+}
+
+ul.sixty-items {
+    display: grid;
+    grid-template-columns: repeat(3, 205px);
+    grid-template-rows: repeat(20, auto);
+    grid-auto-flow: column;
 }

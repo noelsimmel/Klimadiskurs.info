@@ -2,13 +2,13 @@
 
 <div id="glossary-content">
   <!-- class must be "list" for List.js to work -->
-  <ul class="list">
+  <ul class="list sixty-items">
     {% for g in glossary %}
       <li class="collapsible">{{ g }}</li>
       <div class="content">
         {% if glossary[g]["total_occurrence"] == 1 %}
-          Bisher nur 1x erwähnt,
-          von {{ glossary[g]["first_mentioned"][0][0] }} 
+          Bisher nur 1x erwähnt:
+          Von {{ glossary[g]["first_mentioned"][0][0] }} 
           im Jahr {{ glossary[g]["first_mentioned"][0][1] }}. 
         {% else %}
           Insgesamt {{ glossary[g]["total_occurrence"] }}x erwähnt,
@@ -26,6 +26,10 @@
     {% endfor %}
   </ul>
 
+  <!-- include js code for collapsible -->
+  <!-- must be loaded AFTER the glossary content to work together with list.js -->
+  <script src="{{ url_for('static', filename='js/collapsible.js') }}"></script>
+
   <!-- on phone screens, don't use List.js/pagination -->
   <!-- just show the last 30 entries. on bigger screens this is hidden -->
   <ul class="glossary-one-list">
@@ -35,7 +39,7 @@
   </ul>
 
   <!-- include code for pagination if list is longer than items_per_page -->
-  {% if glossary|length > 30 %}
+  {% if glossary|length > items_per_page %}
     <div class="glossary-pagination">
       <button id="btn-prev">&#8592;</button><br>
       <button id="btn-next">&#8594;</button><br>

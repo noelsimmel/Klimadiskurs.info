@@ -46,6 +46,11 @@ def home_route(template, **kwargs):
     except IndexError:
         random_entry = "Klimaleugner"
 
+    # double items per page for platforms page,
+    # since we have list item + glossary info for each term
+    if template == "platforms/platforms-home.html":
+        ITEMS_PER_PAGE = 60
+
     return render_template(template, **kwargs, random_entry=random_entry, 
                            form=form, db_size=len(db), enable_submissions=ENABLE_SUBMISSIONS, 
                            items_per_page=ITEMS_PER_PAGE)
