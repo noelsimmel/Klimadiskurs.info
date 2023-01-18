@@ -48,7 +48,7 @@ def home_route(template, **kwargs):
 
     # double items per page for platforms page,
     # since we have list item + glossary info for each term
-    if template == "platforms/platforms-home.html":
+    if template == "hanel/platforms-home.html":
         ITEMS_PER_PAGE = 60
 
     return render_template(template, **kwargs, random_entry=random_entry, 

@@ -185,7 +185,7 @@ def wahlprogramme():
     Route for party platforms research by Juliane Hanel.
     """
 
-    graphs = get_files_in_directory("klimadiskurs/templates/platforms/graphs", ".html")
+    graphs = get_files_in_directory("klimadiskurs/templates/hanel/graphs", ".html")
     
     highest_party_occurrence = dict()
     for term in platforms_db:
@@ -193,5 +193,5 @@ def wahlprogramme():
         max_value = max(term_usage.values())
         highest_party_occurrence[term] = [k for k,v in term_usage.items() if v == max_value]
 
-    return home_route("platforms/platforms-home.html", glossary=platforms_db, 
+    return home_route("hanel/platforms-home.html", glossary=platforms_db, 
                         include_html=graphs, highest_party_occurrence=highest_party_occurrence)
