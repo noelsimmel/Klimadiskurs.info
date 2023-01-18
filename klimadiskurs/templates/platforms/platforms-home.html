@@ -23,23 +23,34 @@
       haben wir die Visualisierungen an der Zeitachse entsprechend angepasst.
     </p>
   </div>
-  
-<!-- graphs are opened in a modal by clicking on the corresponding thumbnail -->
-{% for graph in include_html %}
-  <!-- thumbnail -->
-  <a href="#graph-{{ loop.index0 }}">
-    <img src="/static/img/platforms/{{ graph.replace('.html', '.png') }}" 
-         class="modal-open-button">
-  </a>
 
-  <!-- modal content (graph HTML) -->
-  <div id="graph-{{ loop.index0 }}" class="modal">
-    <div class="modal-content">
-      {% include "platforms/graphs/" + graph %}
+<!-- graph slideshow -->
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<div class="slideshow-container">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+    {% for graph in include_html %}
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">1 / 3</div> -->
+      <a href="#graph-{{ loop.index0 }}">
+        <img src="/static/img/platforms/{{ graph.replace('.html', '.png') }}" 
+             class="modal-open-button">
+      </a>
+    
+      <!-- modal content (graph HTML) -->
+      <div id="graph-{{ loop.index0 }}" class="modal">
+        <div class="modal-content">
+          {% include "platforms/graphs/" + graph %}
+        </div>
+        <a href="#" class="modal-close"></a>
+      </div>
     </div>
-    <a href="#" class="modal-close"></a>
+    {% endfor %}
+  
+    <!-- Next and previous buttons -->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
-{% endfor %}
 
 {% endblock %}
 

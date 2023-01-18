@@ -1,6 +1,6 @@
 /* styling for /about view */
 
-/* ordered lists for top glossary types */
+/* || ordered lists for top glossary types */
 ol.list {
     margin: 0 -30px;
     display: grid;
@@ -18,4 +18,33 @@ ol .tooltip .tooltip-text {
 
 ol .tooltip .tooltip-text:after {
     content: none;
+}
+
+/* || slideshow */
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp */
+/* slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+  
+  /* previous & next buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    padding: 10px;
+    font-size: 18pt;
+}
+  
+  /* position the "next" button to the right */
+.next {
+    right: 0px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: var(--accent-color);
+    color: var(--accent-color-vague)
 }
