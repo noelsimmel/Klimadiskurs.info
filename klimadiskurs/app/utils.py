@@ -31,6 +31,8 @@ def home_route(template, **kwargs):
         template
     """
 
+    global ITEMS_PER_PAGE
+
     # submit form
     form = EntrySubmitForm()
     if form.validate_on_submit():
