@@ -24,15 +24,18 @@
 <header>
   <nav>
     <a href="{{ url_for('glossary.home') }}">Home</a>
+
     <a href="{{ url_for('glossary.about') }}">About</a>
+
     <div class="dropdown">
         <a href="{{ url_for('glossary.download') }}" class="dropdown-header">Download</a>
         <div class="dropdown-content">
             <a href="{{ url_for('glossary.download_wordlist') }}">Wortliste (.txt)</a>
             <a href="{{ url_for('glossary.download_json') }}">Glossar (.json)</a>
         </div>
-      </div> 
-    <span>Universität Potsdam 2023</span> 
+    </div> 
+
+    <a href="{{ url_for('glossary.wahlprogramme') }}">Wahlprogramme</a>
   </nav>
 </header>
 
