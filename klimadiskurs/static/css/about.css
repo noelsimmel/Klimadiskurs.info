@@ -28,6 +28,10 @@ ol .tooltip .tooltip-text:after {
     position: relative;
     margin: auto;
 }
+
+.slideshow-slides {
+    width: 575px;
+}
   
   /* previous & next buttons */
 .prev, .next {
